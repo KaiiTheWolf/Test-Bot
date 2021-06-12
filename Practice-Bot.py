@@ -5,7 +5,7 @@ from discord.ext import commands
 import asyncio
 
 client = commands.Bot(command_prefix = '!')
-TOKEN = 'ODUzMTAwNTU1MDM5ODAxMzU0.YMQdzg.jo4CrtRMSUfZEt_i4vIac3sgv38'
+
 
 
 #   This command is very important, This command has starts the bot! and if you look at the bottom of atom or what ever console and you will see "This bot is online."
@@ -27,4 +27,4 @@ async def Hello(ctx):
 
 
  #  There is no need to paste the token in here but just in case you want to to paste the toke just in The brackets copy and paste the token.
-client.run('ODUzMTAwNTU1MDM5ODAxMzU0.YMQdzg.jo4CrtRMSUfZEt_i4vIac3sgv38')
+client.run('YOUR BOT TOKEN HERE')
